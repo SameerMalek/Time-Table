@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "days": [ "Friday"],
+    "name":["Capstone"],
+    "dates": "03/09/2024 - 16/12/2024",
+    "type": "Class",
+    "time": "12:00 - 14:50",
+    "location": "Main Campus | Stan Grad Centre | Room MB211",
+    "instructor": "Rajani Phadtare"
+  },
+  {
+    "id": 2,
+    "days": ["Tuesday"],
+    "name":["Capstone"],
+    "dates": "03/09/2024 - 16/12/2024",
+    "type": "Class",
+    "time": "10:00 - 11:50",
+    "location": "Main Campus | Stan Grad Centre | Room MB211",
+    "instructor": "Rajani Phadtare"
+  },
+  {
+    "id": 3,
+    "days": ["Thursday"],
+    "name":["Emerging Trends"],
+    "dates": "03/09/2024 - 16/12/2024",
+    "type": "Class",
+    "time": "08:00 - 09:50",
+    "location": "Main Campus | Thomas Riley Building | Room TT203",
+    "instructor": "Sarbjeet Brar"
+  },
+  {
+    "id": 4,
+    "days": ["Tuesday"],
+    "name":["Emerging Trends"],
+    "dates": "03/09/2024 - 16/12/2024",
+    "type": "Online Synchronous",
+    "time": "08:00 - 09:50",
+    "location": "Online Campus | Online | Room ONLINE83",
+    "instructor": "Sarbjeet Brar"
+  },
+  {
+    "id": 5,
+    "days": ["Friday"],
+    "name":["O.S"],
+    "dates": "03/09/2024 - 16/12/2024",
+    "type": "Online Synchronous",
+    "time": "10:00 - 11:50",
+    "location": "Online Campus | Online | Room ONLINE83",
+    "instructor": "Rajani Phadtare"
+  },
+  {
+    "id": 6,
+    "days": ["Wednesday"],
+    "name":["O.S"],
+    "dates": "03/09/2024 - 16/12/2024",
+    "type": "Class",
+    "time": "15:00 - 17:50",
+    "location": "Main Campus | Stan Grad Centre | Room MC319",
+    "instructor": "Rajani Phadtare"
+  },
+  {
+    "id": 7,
+    "days": ["Thursday"],
+    "name":["Systems Security"],
+    "dates": "03/09/2024 - 16/12/2024",
+    "type": "Online Synchronous",
+    "time": "13:00 - 14:50",
+    "location": "Online Campus | Online | Room ONLINE83",
+    "instructor": "John O'Loughlin"
+  },
+  {
+    "id": 8,
+    "days": ["Tuesday"],
+    "name":["Systems Security"],
+    "dates": "03/09/2024 - 16/12/2024",
+    "type": "Class",
+    "time": "13:00 - 15:50",
+    "location": "Main Campus | Stan Grad Centre | Room MC317",
+    "instructor": "John O'Loughlin"
+  },
+  {
+    "id": 9,
+    "days": ["Wednesday"],
+    "name":["Software Testing"],
+    "dates": "03/09/2024 - 16/12/2024",
+    "type": "Online Synchronous",
+    "time": "12:00 - 13:50",
+    "location": "Online Campus | Online | Room ONLINE83",
+    "instructor": "Anthony Azimi"
+  },
+  {
+    "id": 10,
+    "days": ["Monday"],
+    "name":["Software Testing"],
+    "dates": "03/09/2024 - 16/12/2024",
+    "type": "Class",
+    "time": "08:00 - 09:50",
+    "location": "Main Campus | Senator Burns Building | Room NN813",
+    "instructor": "Anthony Azimi"
+  }
+]

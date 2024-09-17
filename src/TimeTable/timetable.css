@@ -1,0 +1,130 @@
+/* timetable.css */
+
+/* General styles */
+.timetable-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Desktop view */
+.timetable-grid {
+  display: grid;
+  grid-template-columns: 1fr repeat(7, 1fr);
+  gap: 10px;
+}
+
+.timetable-header,
+.timetable-row {
+  display: contents;
+}
+
+.time-slot-header {
+  grid-column: 1 / 2;
+}
+
+.day-header {
+  text-align: center;
+  background-color: #667eea;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+}
+
+.time-slot {
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.day-cell {
+  padding: 5px;
+  border: 1px solid #ccc;
+  min-height: 60px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.class-item {
+  background-color: #ffeaa7;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.class-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.class-title {
+  font-weight: bold;
+  font-size: 16px;
+  color: #2d3436;
+}
+
+.class-info {
+  font-size: 14px;
+  color: #636e72;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .timetable-grid {
+    display: block;
+  }
+
+  .day-header {
+    display: block;
+    font-weight: bold;
+    background-color: #2b8a3e;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+    color: #fff;
+  }
+
+  .timetable-row {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .day-cell {
+    display: block;
+  }
+
+  .class-item {
+    display: block;
+    background-color: #74b9ff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  /* Hide time slots in mobile view */
+  .time-slot {
+    display: none;
+  }
+
+  /* Hide table headers in mobile view */
+  .timetable-header {
+    display: none;
+  }
+}
